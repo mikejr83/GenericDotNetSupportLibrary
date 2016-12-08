@@ -1,0 +1,229 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDotNetSupportLibrary.NET35", "GenericDotNetSupportLibrary.NET35\GenericDotNetSupportLibrary.NET35.csproj", "{10F0DB0D-F82F-4AF3-A5FC-AEDD28349F88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDotNetSupportLibrary.NET40", "GenericDotNetSupportLibrary.NET40\GenericDotNetSupportLibrary.NET40.csproj", "{02D9F1B6-562A-4680-BA95-6671ED5452EC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{10F0DB0D-F82F-4AF3-A5FC-AEDD28349F88} = {10F0DB0D-F82F-4AF3-A5FC-AEDD28349F88}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{0C88ECB4-5D70-4536-8D86-6A46AFB4FA15}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDotNetSupportLibrary.NET40.Tests", "GenericDotNetSupportLibrary.NET40.Tests\GenericDotNetSupportLibrary.NET40.Tests.csproj", "{898BDE4B-C8C1-43BF-B2EB-FF81F3796C9C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{49F94DAF-D413-412E-A055-471BC8C83727}"
+	ProjectSection(SolutionItems) = preProject
+		SupportLibraryTestSettings.testsettings = SupportLibraryTestSettings.testsettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NET35", "NET35", "{5F09B1C2-840D-429B-B577-D0187A69F811}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NET40", "NET40", "{0C89276F-B3D0-4F87-BEB2-404C2FE44391}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NET45", "NET45", "{ADFB96D6-D597-41BD-B497-8963C6E1DB90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDotNetSupportLibrary.NET45", "GenericDotNetSupportLibrary.NET45\GenericDotNetSupportLibrary.NET45.csproj", "{3ED7231C-486F-402C-98B1-34D5D3FC62ED}"
+	ProjectSection(ProjectDependencies) = postProject
+		{10F0DB0D-F82F-4AF3-A5FC-AEDD28349F88} = {10F0DB0D-F82F-4AF3-A5FC-AEDD28349F88}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDotNetSupportLibrary.NET35.Entity", "GenericDotNetSupportLibrary.NET35.Entity\GenericDotNetSupportLibrary.NET35.Entity.csproj", "{3434486E-1EF8-4B06-ADB8-B0D41940F824}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDotNetSupportLibrary.NET35.Tests", "GenericDotNetSupportLibrary.NET35.Tests\GenericDotNetSupportLibrary.NET35.Tests.csproj", "{2218C936-7813-4CB0-BC0E-439EE48FB5B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDotNetSupportLibrary.NET35.Deployment", "GenericDotNetSupportLibrary.NET35.Deployment\GenericDotNetSupportLibrary.NET35.Deployment.csproj", "{5851A418-0E4F-4185-9224-6A039F5A01A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDotNetSupportLibrary.NET40.Entity", "GenericDotNetSupportLibrary.NET40.Entity\GenericDotNetSupportLibrary.NET40.Entity.csproj", "{8C2CBC78-F767-47E8-A22F-E35C0C79D968}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDotNetSupportLibrary.NET40.WindowsUI", "GenericDotNetSupportLibrary.NET40.WindowsUI\GenericDotNetSupportLibrary.NET40.WindowsUI.csproj", "{FD24EAC0-3A19-41BE-8993-376405960882}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDotNetSupportLibrary.NET45.Entity", "GenericDotNetSupportLibrary.NET45.Entity\GenericDotNetSupportLibrary.NET45.Entity.csproj", "{43B1CDB8-F672-4886-9FC1-AE90D22FB650}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDotNetSupportLibrary.NET45.WindowsUI", "GenericDotNetSupportLibrary.NET45.WindowsUI\GenericDotNetSupportLibrary.NET45.WindowsUI.csproj", "{E6D6AFBB-25DB-4CC7-9EBE-F3FF08C948AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDotNetSupportLibrary.NET45.Deployment", "GenericDotNetSupportLibrary.NET45.Deployment\GenericDotNetSupportLibrary.NET45.Deployment.csproj", "{0F7B10E0-BB05-4890-AEDC-8309FC75DC92}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 13
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = GenericDotNetSupportLibrary.NET45\\GenericDotNetSupportLibrary.NET45.csproj
+		SccProjectTopLevelParentUniqueName1 = SumTotalSupportLibrary.sln
+		SccProjectName1 = GenericDotNetSupportLibrary.NET45
+		SccLocalPath1 = GenericDotNetSupportLibrary.NET45
+		SccProjectUniqueName2 = GenericDotNetSupportLibrary.NET35.Entity\\GenericDotNetSupportLibrary.NET35.Entity.csproj
+		SccProjectTopLevelParentUniqueName2 = SumTotalSupportLibrary.sln
+		SccProjectName2 = GenericDotNetSupportLibrary.NET35.Entity
+		SccLocalPath2 = GenericDotNetSupportLibrary.NET35.Entity
+		SccProjectUniqueName3 = GenericDotNetSupportLibrary.NET35.Tests\\GenericDotNetSupportLibrary.NET35.Tests.csproj
+		SccProjectTopLevelParentUniqueName3 = SumTotalSupportLibrary.sln
+		SccProjectName3 = GenericDotNetSupportLibrary.NET35.Tests
+		SccLocalPath3 = GenericDotNetSupportLibrary.NET35.Tests
+		SccProjectUniqueName4 = GenericDotNetSupportLibrary.NET35.Deployment\\GenericDotNetSupportLibrary.NET35.Deployment.csproj
+		SccProjectTopLevelParentUniqueName4 = SumTotalSupportLibrary.sln
+		SccProjectName4 = GenericDotNetSupportLibrary.NET35.Deployment
+		SccLocalPath4 = GenericDotNetSupportLibrary.NET35.Deployment
+		SccProjectUniqueName5 = GenericDotNetSupportLibrary.NET40.Entity\\GenericDotNetSupportLibrary.NET40.Entity.csproj
+		SccProjectTopLevelParentUniqueName5 = SumTotalSupportLibrary.sln
+		SccProjectName5 = GenericDotNetSupportLibrary.NET40.Entity
+		SccLocalPath5 = GenericDotNetSupportLibrary.NET40.Entity
+		SccProjectUniqueName6 = GenericDotNetSupportLibrary.NET35\\GenericDotNetSupportLibrary.NET35.csproj
+		SccProjectTopLevelParentUniqueName6 = SumTotalSupportLibrary.sln
+		SccProjectName6 = GenericDotNetSupportLibrary.NET35
+		SccLocalPath6 = GenericDotNetSupportLibrary.NET35
+		SccProjectUniqueName7 = GenericDotNetSupportLibrary.NET40\\GenericDotNetSupportLibrary.NET40.csproj
+		SccProjectTopLevelParentUniqueName7 = SumTotalSupportLibrary.sln
+		SccProjectName7 = GenericDotNetSupportLibrary.NET40
+		SccLocalPath7 = GenericDotNetSupportLibrary.NET40
+		SccProjectUniqueName8 = GenericDotNetSupportLibrary.NET40.Tests\\GenericDotNetSupportLibrary.NET40.Tests.csproj
+		SccProjectTopLevelParentUniqueName8 = SumTotalSupportLibrary.sln
+		SccProjectName8 = GenericDotNetSupportLibrary.NET40.Tests
+		SccLocalPath8 = GenericDotNetSupportLibrary.NET40.Tests
+		SccProjectUniqueName9 = GenericDotNetSupportLibrary.NET40.WindowsUI\\GenericDotNetSupportLibrary.NET40.WindowsUI.csproj
+		SccProjectTopLevelParentUniqueName9 = SumTotalSupportLibrary.sln
+		SccProjectName9 = GenericDotNetSupportLibrary.NET40.WindowsUI
+		SccLocalPath9 = GenericDotNetSupportLibrary.NET40.WindowsUI
+		SccProjectUniqueName10 = GenericDotNetSupportLibrary.NET45.Entity\\GenericDotNetSupportLibrary.NET45.Entity.csproj
+		SccProjectTopLevelParentUniqueName10 = SumTotalSupportLibrary.sln
+		SccProjectName10 = GenericDotNetSupportLibrary.NET45.Entity
+		SccLocalPath10 = GenericDotNetSupportLibrary.NET45.Entity
+		SccProjectUniqueName11 = GenericDotNetSupportLibrary.NET45.WindowsUI\\GenericDotNetSupportLibrary.NET45.WindowsUI.csproj
+		SccProjectTopLevelParentUniqueName11 = SumTotalSupportLibrary.sln
+		SccProjectName11 = GenericDotNetSupportLibrary.NET45.WindowsUI
+		SccLocalPath11 = GenericDotNetSupportLibrary.NET45.WindowsUI
+		SccProjectUniqueName12 = GenericDotNetSupportLibrary.NET45.Deployment\\GenericDotNetSupportLibrary.NET45.Deployment.csproj
+		SccProjectTopLevelParentUniqueName12 = SumTotalSupportLibrary.sln
+		SccProjectName12 = GenericDotNetSupportLibrary.NET45.Deployment
+		SccLocalPath12 = GenericDotNetSupportLibrary.NET45.Deployment
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Release35|Any CPU = Release35|Any CPU
+		Release40|Any CPU = Release40|Any CPU
+		Release45|Any CPU = Release45|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10F0DB0D-F82F-4AF3-A5FC-AEDD28349F88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10F0DB0D-F82F-4AF3-A5FC-AEDD28349F88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10F0DB0D-F82F-4AF3-A5FC-AEDD28349F88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10F0DB0D-F82F-4AF3-A5FC-AEDD28349F88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10F0DB0D-F82F-4AF3-A5FC-AEDD28349F88}.Release35|Any CPU.ActiveCfg = Release|Any CPU
+		{10F0DB0D-F82F-4AF3-A5FC-AEDD28349F88}.Release35|Any CPU.Build.0 = Release|Any CPU
+		{10F0DB0D-F82F-4AF3-A5FC-AEDD28349F88}.Release40|Any CPU.ActiveCfg = Release|Any CPU
+		{10F0DB0D-F82F-4AF3-A5FC-AEDD28349F88}.Release45|Any CPU.ActiveCfg = Release|Any CPU
+		{02D9F1B6-562A-4680-BA95-6671ED5452EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02D9F1B6-562A-4680-BA95-6671ED5452EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02D9F1B6-562A-4680-BA95-6671ED5452EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02D9F1B6-562A-4680-BA95-6671ED5452EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02D9F1B6-562A-4680-BA95-6671ED5452EC}.Release35|Any CPU.ActiveCfg = Release|Any CPU
+		{02D9F1B6-562A-4680-BA95-6671ED5452EC}.Release40|Any CPU.ActiveCfg = Release|Any CPU
+		{02D9F1B6-562A-4680-BA95-6671ED5452EC}.Release40|Any CPU.Build.0 = Release|Any CPU
+		{02D9F1B6-562A-4680-BA95-6671ED5452EC}.Release45|Any CPU.ActiveCfg = Release|Any CPU
+		{898BDE4B-C8C1-43BF-B2EB-FF81F3796C9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{898BDE4B-C8C1-43BF-B2EB-FF81F3796C9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{898BDE4B-C8C1-43BF-B2EB-FF81F3796C9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{898BDE4B-C8C1-43BF-B2EB-FF81F3796C9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{898BDE4B-C8C1-43BF-B2EB-FF81F3796C9C}.Release35|Any CPU.ActiveCfg = Release35|Any CPU
+		{898BDE4B-C8C1-43BF-B2EB-FF81F3796C9C}.Release40|Any CPU.ActiveCfg = Release40|Any CPU
+		{898BDE4B-C8C1-43BF-B2EB-FF81F3796C9C}.Release40|Any CPU.Build.0 = Release40|Any CPU
+		{898BDE4B-C8C1-43BF-B2EB-FF81F3796C9C}.Release45|Any CPU.ActiveCfg = Release45|Any CPU
+		{3ED7231C-486F-402C-98B1-34D5D3FC62ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ED7231C-486F-402C-98B1-34D5D3FC62ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ED7231C-486F-402C-98B1-34D5D3FC62ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ED7231C-486F-402C-98B1-34D5D3FC62ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ED7231C-486F-402C-98B1-34D5D3FC62ED}.Release35|Any CPU.ActiveCfg = Release|Any CPU
+		{3ED7231C-486F-402C-98B1-34D5D3FC62ED}.Release40|Any CPU.ActiveCfg = Release|Any CPU
+		{3ED7231C-486F-402C-98B1-34D5D3FC62ED}.Release45|Any CPU.ActiveCfg = Release|Any CPU
+		{3ED7231C-486F-402C-98B1-34D5D3FC62ED}.Release45|Any CPU.Build.0 = Release|Any CPU
+		{3434486E-1EF8-4B06-ADB8-B0D41940F824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3434486E-1EF8-4B06-ADB8-B0D41940F824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3434486E-1EF8-4B06-ADB8-B0D41940F824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3434486E-1EF8-4B06-ADB8-B0D41940F824}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3434486E-1EF8-4B06-ADB8-B0D41940F824}.Release35|Any CPU.ActiveCfg = Release|Any CPU
+		{3434486E-1EF8-4B06-ADB8-B0D41940F824}.Release35|Any CPU.Build.0 = Release|Any CPU
+		{3434486E-1EF8-4B06-ADB8-B0D41940F824}.Release40|Any CPU.ActiveCfg = Release|Any CPU
+		{3434486E-1EF8-4B06-ADB8-B0D41940F824}.Release45|Any CPU.ActiveCfg = Release|Any CPU
+		{2218C936-7813-4CB0-BC0E-439EE48FB5B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2218C936-7813-4CB0-BC0E-439EE48FB5B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2218C936-7813-4CB0-BC0E-439EE48FB5B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2218C936-7813-4CB0-BC0E-439EE48FB5B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2218C936-7813-4CB0-BC0E-439EE48FB5B9}.Release35|Any CPU.ActiveCfg = Release35|Any CPU
+		{2218C936-7813-4CB0-BC0E-439EE48FB5B9}.Release40|Any CPU.ActiveCfg = Release40|Any CPU
+		{2218C936-7813-4CB0-BC0E-439EE48FB5B9}.Release45|Any CPU.ActiveCfg = Release45|Any CPU
+		{5851A418-0E4F-4185-9224-6A039F5A01A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5851A418-0E4F-4185-9224-6A039F5A01A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5851A418-0E4F-4185-9224-6A039F5A01A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5851A418-0E4F-4185-9224-6A039F5A01A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5851A418-0E4F-4185-9224-6A039F5A01A6}.Release35|Any CPU.ActiveCfg = Release|Any CPU
+		{5851A418-0E4F-4185-9224-6A039F5A01A6}.Release35|Any CPU.Build.0 = Release|Any CPU
+		{5851A418-0E4F-4185-9224-6A039F5A01A6}.Release40|Any CPU.ActiveCfg = Release|Any CPU
+		{5851A418-0E4F-4185-9224-6A039F5A01A6}.Release45|Any CPU.ActiveCfg = Release|Any CPU
+		{8C2CBC78-F767-47E8-A22F-E35C0C79D968}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C2CBC78-F767-47E8-A22F-E35C0C79D968}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C2CBC78-F767-47E8-A22F-E35C0C79D968}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C2CBC78-F767-47E8-A22F-E35C0C79D968}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C2CBC78-F767-47E8-A22F-E35C0C79D968}.Release35|Any CPU.ActiveCfg = Release|Any CPU
+		{8C2CBC78-F767-47E8-A22F-E35C0C79D968}.Release40|Any CPU.ActiveCfg = Release|Any CPU
+		{8C2CBC78-F767-47E8-A22F-E35C0C79D968}.Release40|Any CPU.Build.0 = Release|Any CPU
+		{8C2CBC78-F767-47E8-A22F-E35C0C79D968}.Release45|Any CPU.ActiveCfg = Release|Any CPU
+		{FD24EAC0-3A19-41BE-8993-376405960882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD24EAC0-3A19-41BE-8993-376405960882}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD24EAC0-3A19-41BE-8993-376405960882}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD24EAC0-3A19-41BE-8993-376405960882}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD24EAC0-3A19-41BE-8993-376405960882}.Release35|Any CPU.ActiveCfg = Release|Any CPU
+		{FD24EAC0-3A19-41BE-8993-376405960882}.Release40|Any CPU.ActiveCfg = Release|Any CPU
+		{FD24EAC0-3A19-41BE-8993-376405960882}.Release40|Any CPU.Build.0 = Release|Any CPU
+		{FD24EAC0-3A19-41BE-8993-376405960882}.Release45|Any CPU.ActiveCfg = Release|Any CPU
+		{43B1CDB8-F672-4886-9FC1-AE90D22FB650}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43B1CDB8-F672-4886-9FC1-AE90D22FB650}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43B1CDB8-F672-4886-9FC1-AE90D22FB650}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43B1CDB8-F672-4886-9FC1-AE90D22FB650}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43B1CDB8-F672-4886-9FC1-AE90D22FB650}.Release35|Any CPU.ActiveCfg = Release|Any CPU
+		{43B1CDB8-F672-4886-9FC1-AE90D22FB650}.Release40|Any CPU.ActiveCfg = Release|Any CPU
+		{43B1CDB8-F672-4886-9FC1-AE90D22FB650}.Release45|Any CPU.ActiveCfg = Release|Any CPU
+		{43B1CDB8-F672-4886-9FC1-AE90D22FB650}.Release45|Any CPU.Build.0 = Release|Any CPU
+		{E6D6AFBB-25DB-4CC7-9EBE-F3FF08C948AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6D6AFBB-25DB-4CC7-9EBE-F3FF08C948AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6D6AFBB-25DB-4CC7-9EBE-F3FF08C948AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6D6AFBB-25DB-4CC7-9EBE-F3FF08C948AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6D6AFBB-25DB-4CC7-9EBE-F3FF08C948AF}.Release35|Any CPU.ActiveCfg = Release|Any CPU
+		{E6D6AFBB-25DB-4CC7-9EBE-F3FF08C948AF}.Release40|Any CPU.ActiveCfg = Release|Any CPU
+		{E6D6AFBB-25DB-4CC7-9EBE-F3FF08C948AF}.Release45|Any CPU.ActiveCfg = Release|Any CPU
+		{E6D6AFBB-25DB-4CC7-9EBE-F3FF08C948AF}.Release45|Any CPU.Build.0 = Release|Any CPU
+		{0F7B10E0-BB05-4890-AEDC-8309FC75DC92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F7B10E0-BB05-4890-AEDC-8309FC75DC92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F7B10E0-BB05-4890-AEDC-8309FC75DC92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F7B10E0-BB05-4890-AEDC-8309FC75DC92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F7B10E0-BB05-4890-AEDC-8309FC75DC92}.Release35|Any CPU.ActiveCfg = Release|Any CPU
+		{0F7B10E0-BB05-4890-AEDC-8309FC75DC92}.Release40|Any CPU.ActiveCfg = Release|Any CPU
+		{0F7B10E0-BB05-4890-AEDC-8309FC75DC92}.Release45|Any CPU.ActiveCfg = Release|Any CPU
+		{0F7B10E0-BB05-4890-AEDC-8309FC75DC92}.Release45|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{10F0DB0D-F82F-4AF3-A5FC-AEDD28349F88} = {5F09B1C2-840D-429B-B577-D0187A69F811}
+		{3434486E-1EF8-4B06-ADB8-B0D41940F824} = {5F09B1C2-840D-429B-B577-D0187A69F811}
+		{2218C936-7813-4CB0-BC0E-439EE48FB5B9} = {5F09B1C2-840D-429B-B577-D0187A69F811}
+		{5851A418-0E4F-4185-9224-6A039F5A01A6} = {5F09B1C2-840D-429B-B577-D0187A69F811}
+		{898BDE4B-C8C1-43BF-B2EB-FF81F3796C9C} = {0C89276F-B3D0-4F87-BEB2-404C2FE44391}
+		{02D9F1B6-562A-4680-BA95-6671ED5452EC} = {0C89276F-B3D0-4F87-BEB2-404C2FE44391}
+		{8C2CBC78-F767-47E8-A22F-E35C0C79D968} = {0C89276F-B3D0-4F87-BEB2-404C2FE44391}
+		{FD24EAC0-3A19-41BE-8993-376405960882} = {0C89276F-B3D0-4F87-BEB2-404C2FE44391}
+		{3ED7231C-486F-402C-98B1-34D5D3FC62ED} = {ADFB96D6-D597-41BD-B497-8963C6E1DB90}
+		{43B1CDB8-F672-4886-9FC1-AE90D22FB650} = {ADFB96D6-D597-41BD-B497-8963C6E1DB90}
+		{E6D6AFBB-25DB-4CC7-9EBE-F3FF08C948AF} = {ADFB96D6-D597-41BD-B497-8963C6E1DB90}
+		{0F7B10E0-BB05-4890-AEDC-8309FC75DC92} = {ADFB96D6-D597-41BD-B497-8963C6E1DB90}
+	EndGlobalSection
+EndGlobal

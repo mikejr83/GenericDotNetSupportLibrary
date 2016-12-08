@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3ED7231C-486F-402C-98B1-34D5D3FC62ED}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GenericDotNetSupportLibrary</RootNamespace>
+    <AssemblyName>GenericDotNetSupportLibrary.NET45</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release45\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release45\GenericDotNetSupportLibrary.NET45.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\GenericDotNetSupportLibrary.NET35\Attributes\EnumDescriptionAttribute35.cs">
+      <Link>Attributes\EnumDescriptionAttribute35.cs</Link>
+    </Compile>
+    <Compile Include="..\GenericDotNetSupportLibrary.NET35\Attributes\EnumDisplayNameAttribute35.cs">
+      <Link>Attributes\EnumDisplayNameAttribute35.cs</Link>
+    </Compile>
+    <Compile Include="..\GenericDotNetSupportLibrary.NET35\Attributes\EnumTooltipAttribute35.cs">
+      <Link>Attributes\EnumTooltipAttribute35.cs</Link>
+    </Compile>
+    <Compile Include="..\GenericDotNetSupportLibrary.NET35\Attributes\EnumValueAttribute35.cs">
+      <Link>Attributes\EnumValueAttribute35.cs</Link>
+    </Compile>
+    <Compile Include="..\GenericDotNetSupportLibrary.NET35\Attributes\SkipPropertyChangedAttribute.cs">
+      <Link>Attributes\SkipPropertyChangedAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\GenericDotNetSupportLibrary.NET35\ExtendedQueue.cs">
+      <Link>ExtendedQueue.cs</Link>
+    </Compile>
+    <Compile Include="..\GenericDotNetSupportLibrary.NET35\Extensions\CollectionExtensions.cs">
+      <Link>Extensions\CollectionExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\GenericDotNetSupportLibrary.NET35\Extensions\DictionaryExtensions.cs">
+      <Link>Extensions\DictionaryExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\GenericDotNetSupportLibrary.NET35\Extensions\EnumExtensions.cs">
+      <Link>Extensions\EnumExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\GenericDotNetSupportLibrary.NET35\Extensions\Environment\ByteExtensions.cs">
+      <Link>Extensions\Environment\ByteExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\GenericDotNetSupportLibrary.NET35\Extensions\ExceptionExtensions.cs">
+      <Link>Extensions\ExceptionExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\GenericDotNetSupportLibrary.NET35\Extensions\StringExtensions.cs">
+      <Link>Extensions\StringExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\GenericDotNetSupportLibrary.NET35\Extensions\XmlHelperExtensions.cs">
+      <Link>Extensions\XmlHelperExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\GenericDotNetSupportLibrary.NET35\Helpers\AssemblyHelper35.cs">
+      <Link>Helpers\AssemblyHelper35.cs</Link>
+    </Compile>
+    <Compile Include="..\GenericDotNetSupportLibrary.NET35\Helpers\CertificateHelper.cs">
+      <Link>Helpers\CertificateHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\GenericDotNetSupportLibrary.NET35\Helpers\EncryptionHelper.cs">
+      <Link>Helpers\EncryptionHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\GenericDotNetSupportLibrary.NET35\Helpers\EnumHelper35.cs">
+      <Link>Helpers\EnumHelper35.cs</Link>
+    </Compile>
+    <Compile Include="..\GenericDotNetSupportLibrary.NET35\Helpers\EnvironmentHelper.cs">
+      <Link>Helpers\EnvironmentHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\GenericDotNetSupportLibrary.NET35\Helpers\ExceptionHelper.cs">
+      <Link>Helpers\ExceptionHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\GenericDotNetSupportLibrary.NET35\Helpers\FileHelper.cs">
+      <Link>Helpers\FileHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\GenericDotNetSupportLibrary.NET35\Helpers\FileSystemHelper.cs">
+      <Link>Helpers\FileSystemHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\GenericDotNetSupportLibrary.NET35\Helpers\ImpersonationHelper35.cs">
+      <Link>Helpers\ImpersonationHelper35.cs</Link>
+    </Compile>
+    <Compile Include="..\GenericDotNetSupportLibrary.NET35\Helpers\LambdaComparer35.cs">
+      <Link>Helpers\LambdaComparer35.cs</Link>
+    </Compile>
+    <Compile Include="..\GenericDotNetSupportLibrary.NET35\Helpers\LambdaEqualityComparer.cs">
+      <Link>Helpers\LambdaEqualityComparer.cs</Link>
+    </Compile>
+    <Compile Include="..\GenericDotNetSupportLibrary.NET35\Helpers\NetworkHelper.cs">
+      <Link>Helpers\NetworkHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\GenericDotNetSupportLibrary.NET35\Helpers\OSVersionInfoHelper35.cs">
+      <Link>Helpers\OSVersionInfoHelper35.cs</Link>
+    </Compile>
+    <Compile Include="..\GenericDotNetSupportLibrary.NET35\Helpers\ProcessHelper.cs">
+      <Link>Helpers\ProcessHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\GenericDotNetSupportLibrary.NET35\Helpers\RegistryHelper35.cs">
+      <Link>Helpers\RegistryHelper35.cs</Link>
+    </Compile>
+    <Compile Include="..\GenericDotNetSupportLibrary.NET35\Helpers\ResourceHelper.cs">
+      <Link>Helpers\ResourceHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\GenericDotNetSupportLibrary.NET35\Helpers\SerializationHelper35.cs">
+      <Link>Helpers\SerializationHelper35.cs</Link>
+    </Compile>
+    <Compile Include="..\GenericDotNetSupportLibrary.NET35\Helpers\StringHelper35.cs">
+      <Link>Helpers\StringHelper35.cs</Link>
+    </Compile>
+    <Compile Include="..\GenericDotNetSupportLibrary.NET35\Helpers\TypeHelper.cs">
+      <Link>Helpers\TypeHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\GenericDotNetSupportLibrary.NET35\Helpers\UrlHelper.cs">
+      <Link>Helpers\UrlHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\GenericDotNetSupportLibrary.NET35\Helpers\XmlHelper.cs">
+      <Link>Helpers\XmlHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\GenericDotNetSupportLibrary.NET35\SqlConnectionString.cs">
+      <Link>SqlConnectionString.cs</Link>
+    </Compile>
+    <Compile Include="..\GenericDotNetSupportLibrary.NET35\ThreadSafeDictionary.cs">
+      <Link>ThreadSafeDictionary.cs</Link>
+    </Compile>
+    <Compile Include="..\GenericDotNetSupportLibrary.NET40\Helpers\NotifyPropertyChangedHelper.cs">
+      <Link>Helpers\NotifyPropertyChangedHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\GenericDotNetSupportLibrary.NET40\Helpers\RegistryHelper40.cs">
+      <Link>Helpers\RegistryHelper40.cs</Link>
+    </Compile>
+    <Compile Include="..\GenericDotNetSupportLibrary.NET40\Helpers\RuntimeHelper40.cs">
+      <Link>Helpers\RuntimeHelper40.cs</Link>
+    </Compile>
+    <Compile Include="..\GenericDotNetSupportLibrary.NET40\Helpers\StringHelper40.cs">
+      <Link>Helpers\StringHelper40.cs</Link>
+    </Compile>
+    <Compile Include="..\GenericDotNetSupportLibrary.NET40\NotifiableObservableCollection.cs">
+      <Link>NotifiableObservableCollection.cs</Link>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
